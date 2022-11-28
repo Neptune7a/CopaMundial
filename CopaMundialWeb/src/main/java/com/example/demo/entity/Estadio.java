@@ -1,5 +1,7 @@
 package com.example.demo.entity;
 
-public class Estadio {
+import java.io.Serializable;
+
+public class Estadio implements Serializable {
 
 }
