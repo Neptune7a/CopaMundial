@@ -19,7 +19,7 @@ public class Continente implements Serializable {
 	@Id
 	@SequenceGenerator(name="continente_id_seq", allocationSize=1)
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="continente_id_seq")
-	private int id;
+	private Integer id;
 	private String nombre;
 	
 
