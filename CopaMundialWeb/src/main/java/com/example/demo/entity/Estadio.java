@@ -9,8 +9,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.SequenceGenerator;
 import lombok.Data;
 
-@Data
 @Entity
+@Data
 public class Estadio implements Serializable {
 	@Id
 	@SequenceGenerator(name="estadio_id_seq", allocationSize=1)
@@ -18,4 +18,6 @@ public class Estadio implements Serializable {
 	private Integer id;
 	private String nombre;
 	private Integer capacidad;
+
+	
 }

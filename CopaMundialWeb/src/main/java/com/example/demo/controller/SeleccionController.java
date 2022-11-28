@@ -14,6 +14,8 @@ import com.example.demo.entity.Seleccion;
 
 import com.example.demo.repository.SeleccionRepository;
 
+import lombok.Data;
+
 import java.util.List;
 import java.util.Optional;
 
